@@ -1,0 +1,39 @@
+footer {
+    background-color: #FBF8FE;
+    color: #989898;
+    text-align: center;
+    padding: 45px 0 10px;
+    font-size: 12px;
+}
+
+footer .footer-logo {
+    color: #16667F;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 25px;
+    font-family: Montserrat, sans-serif;
+}
+
+footer .footer-menu {
+    margin-bottom: 20px;
+}
+
+footer .footer-menu ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding-left: 0;
+}
+
+footer .footer-menu ul li {
+    padding: 0 0 0 15px;
+}
+
+footer .footer-menu ul li:after {
+    content: "|";
+    margin-left: 15px;
+}
+
+footer .footer-menu ul li:last-child:after {
+    content: none;
+}

@@ -1,0 +1,5 @@
+<div id="cont-size">
+<app-header (menuSelected)="onNavigate($event)"></app-header> 
+<app-community *ngIf="loadedMenu ==='community'"></app-community>
+<app-account  *ngIf="loadedMenu ==='myProfile'"></app-account>
+</div>
